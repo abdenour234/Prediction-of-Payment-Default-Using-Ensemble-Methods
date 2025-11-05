@@ -1,0 +1,25 @@
+Sans équilibrage :
+
+Le modèle prédit presque toujours la classe majoritaire (0).
+
+Recall = 0.022 → pratiquement inutile pour détecter les défauts.
+
+SMOTE :
+
+Sur-échantillonnage de la minorité → beaucoup de faux positifs.
+
+F1 faible (0.277) malgré un recall correct.
+
+AUC-ROC plus faible (0.663) → séparation globale moins bonne.
+
+Sous-échantillonnage (RUS) :
+
+Réduit la majorité → meilleur compromis.
+
+Recall 0.632, F1 0.325, AUC 0.720 → solide et stable.
+
+Class weight = balanced :
+
+Les données ne changent pas mais le modèle compense par le coût.
+
+Recall 0.659 légèrement meilleur, F1 comparable (0.314), AUC 0.719 → très similaire à RUS.
