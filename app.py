@@ -16,7 +16,7 @@ def load_model(model_name):
     model_paths = {
         "Decision Tree": "Models/Decision_tree_best_model.pkl",
         "Naive Bayes": "Models/naive_bayes_best_model.pkl",
-        "SVM": "Models/best_svm_model.pkl",
+        "SVM": "Models/best_svm_model2.pkl",
         "Random Forest (RUS)": "Models/random_forest_rus_model.pkl",
         "Voting Ensemble": "Models/voting_ensemble_model.pkl"
     }
